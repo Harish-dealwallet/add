@@ -4,7 +4,7 @@ from selenium.webdriver.chrome.options import Options
 from bs4 import BeautifulSoup
 import time
 from webdriver_manager.chrome import ChromeDriverManager
-import clickhouse_connect
+import clickhouse_connect 
 import uuid
 
 CLICK_HOUSE_HOST = "l1klbatlht.ap-south-1.aws.clickhouse.cloud"
