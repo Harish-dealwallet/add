@@ -39,7 +39,6 @@ def scrape_and_insert():
     driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
     data = []
 
-    # Connect to ClickHouse
     client = clickhouse_connect.get_client(
         host="l1klbatlht.ap-south-1.aws.clickhouse.cloud",
         port="8443",
